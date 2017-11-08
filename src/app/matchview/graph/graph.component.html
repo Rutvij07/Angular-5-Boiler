@@ -1,0 +1,37 @@
+<div class="centerthis">
+  <br>
+    <div class=" centerthis container ">
+       <div class="col-md-12 col-xs-12 ">
+         <md-card style="position:relative;margin-top:10px;" class="basic" *ngFor="let team of teams">
+            <h4 class="centerthis" > {{team.teamA}} Vs {{team.teamB}} &nbsp; <md-icon mdSuffix>skip_next</md-icon></h4>
+          </md-card>
+      </div> <br><br><br>
+
+      <div class="row">
+         <div class=" graph col-md-6  col-xs-12 ">
+           <div style="display: block;">
+           <canvas baseChart width="400" height="400"
+                       [datasets]="lineChartData"
+                       [labels]="lineChartLabels"
+                       [options]="lineChartOptions"
+                       [colors]="lineChartColors"
+                       [legend]="lineChartLegend"
+                       [chartType]="lineChartType"
+                       (chartHover)="chartHovered($event)"
+                       (chartClick)="chartClicked($event)"></canvas>
+           </div>
+         </div>
+         <!-- <div class="col-md-6" style="margin-bottom: 10px">
+           <table class="table table-responsive table-condensed">
+             <tr>
+               <th *ngFor="let label of lineChartLabels">{{label}}</th>
+             </tr>
+             <tr *ngFor="let d of lineChartData">
+               <td *ngFor="let label of lineChartLabels; let j=index">{{d && d.data[j]}}</td>
+             </tr>
+           </table>
+           <button (click)="randomize()">CLICK</button>
+         </div> -->
+       </div>
+</div>
+</div>

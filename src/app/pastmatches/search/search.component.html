@@ -1,0 +1,48 @@
+
+<div class="centerthis">
+  <br>
+    <div class=" centerthis container ">
+       <div class="col-md-12 col-xs-12 ">
+         <h3 style="color:white;">Search Match</h3><br>
+         <!-- <md-card style="position:relative;margin-top:10px;"class="example-card" *ngFor="let info of information">
+            <h4>{{info}} &nbsp;<md-icon mdSuffix>mode_edit</md-icon></h4>
+         </md-card><br> -->
+            <button type="button" class="raised" md-raised-button>Search Match</button><br><br>
+            <md-input-container class="example-full-width">
+               <input type="text" mdInput style="color:white" placeholder="Search Match" name="search"  [(ngModel)] = "searchMatch">
+           </md-input-container>
+             <br><br>
+
+            <button type="button" class="raised" md-raised-button (click)="find()">Find Match</button> <br><br>
+
+             <md-select
+                *ngIf = 'show' [(ngModel)] = "tournamentValue" name="tournament" floatPlaceholder="never"  placeholder="Tournaments" required>
+                <md-option   *ngFor="let tournament of tournaments" [value] = 'tournament.tValue'>
+                 {{ tournament.tValue }}
+                </md-option>
+             </md-select>
+             <!-- <form [formGroup]="Form">
+                 <md-select
+                   (focus)="post(Form.value)"  *ngIf = 'show' [(ngModel)] = "fundValue" name="fund" floatPlaceholder="never" [formControl] = "Form.controls['fundValue']" placeholder="Funds" required>
+                   <md-option   *ngFor="let fund of funds" [value] = 'fund.viewValue'>
+                    {{ fund.viewValue }}
+
+                    </md-option>
+                </md-select> <br><br>
+
+                <md-input-container class="example-full-width" *ngIf = 'input1'>
+                  <input type="tel" mdInput placeholder="Input1"  name="funds1" [formControl] = "Form.controls['fundAmount']" [(ngModel)] = "fundAmount"required>
+                </md-input-container>
+
+                <md-input-container class="example-full-width" *ngIf = 'input2'>
+                  <input type="tel" mdInput placeholder="Input2" [formControl] = "Form.controls['fundAmount']" [(ngModel)] = "fundAmount" name="funds2" required>
+                </md-input-container> <br>
+
+                <button (click)="saveDetails()" *ngIf = 'show' (click)=addInfo(Form.value) class="basic" style="background-color:white !important;color:black;" type="button" md-raised-button>Save</button>
+
+            </form> -->
+    </div>
+  <br>
+</div>
+<br>
+</div>

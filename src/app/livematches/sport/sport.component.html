@@ -1,0 +1,24 @@
+<div class="centerthis">
+  <br>
+    <div class=" centerthis container ">
+      <div class="row">
+
+          <div class="col-md-6 col-xs-6">
+            <h3 style="color:white;">CRICKET</h3>
+          </div>
+          <div class="col-md-6 col-xs-6">
+            <h3 style="color:white;">TENNIS</h3>
+          </div>
+</div>
+       <div class="col-md-12 col-xs-12 ">
+
+           <md-card routerLink = "/matchview" style="position:relative;margin-top:10px;"  class="basic" *ngFor="let team of teams">
+              <h4 class="centerthis" > {{team.teamA}} Vs {{team.teamB}} &nbsp; <md-icon mdSuffix>skip_next</md-icon></h4>
+           </md-card>
+
+       </div><br>
+
+
+</div> <br>
+<button type="button" routerLink="/pastmatch"class="raised" md-raised-button >PastMatch</button>
+</div>

@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import "~@angular/material/prebuilt-themes/purple-green.css";
+
+
+body{
+  background-color: #20233E;
+  font-family:Didact Gothic;
+}
+.centerthis{
+  text-align: center;
+}
+
+  .raised.mat-raised-button{
+  background-color:#3A3F65;
+  color: white;
+}
+
+.basic.mat-card{
+  background-color: #3A3F65;
+  color: white;
+}
