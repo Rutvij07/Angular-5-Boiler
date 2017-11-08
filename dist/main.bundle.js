@@ -74,7 +74,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routes = [
-    { path: 'homepage', redirectTo: '/homepage', pathMatch: 'full' },
+    { path: '', redirectTo: '/homepage', pathMatch: 'full' },
     { path: 'livematch', redirectTo: '/livematch', pathMatch: 'full' },
     { path: 'pastmatch', redirectTo: '/pastmatch', pathMatch: 'full' },
     { path: 'matchview', redirectTo: '/matchview', pathMatch: 'full' },
@@ -1408,7 +1408,7 @@ module.exports = "<app-nav></app-nav><br><br>\n<app-sport></app-sport>\n"
 /***/ 380:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"centerthis\">\n  <br>\n    <div class=\" centerthis container \">\n      <div class=\"row\">\n\n          <div class=\"col-md-6 col-xs-6\">\n            <h3 style=\"color:white;\">CRICKET</h3>\n          </div>\n          <div class=\"col-md-6 col-xs-6\">\n            <h3 style=\"color:white;\">TENNIS</h3>\n          </div>\n</div>\n       <div class=\"col-md-12 col-xs-12 \">\n\n           <md-card routerLink = \"/matchview\" style=\"position:relative;margin-top:10px;\"  class=\"basic\" *ngFor=\"let team of teams\">\n              <h4 class=\"centerthis\" > {{team.teamA}} Vs {{team.teamB}} &nbsp; <md-icon mdSuffix>skip_next</md-icon></h4>\n           </md-card>\n\n       </div><br>\n\n\n</div> <br>\n<button type=\"button\" routerLink=\"/pastmatch\"class=\"raised\" md-raised-button >PastMatch</button>\n</div>\n"
+module.exports = "<div class=\"centerthis\">\n  <br>\n    <div class=\" centerthis container \">\n      <div class=\"row\">\n\n          <div class=\"col-md-6 col-xs-6\">\n            <h3 style=\"color:white;\">CRICKET</h3>\n          </div>\n          <div class=\"col-md-6 col-xs-6\">\n            <h3 style=\"color:white;\">TENNIS</h3>\n          </div>\n</div>\n       <div class=\"col-md-12 col-xs-12 \">\n\n           <md-card routerLink = \"/matchview\" style=\"position:relative;margin-top:10px;\"  class=\"basic\" *ngFor=\"let team of teams\">\n              <h4 class=\"centerthis\" > {{team.teamA}} Vs {{team.teamB}} &nbsp; <md-icon mdSuffix>skip_next</md-icon></h4>\n           </md-card>\n\n       </div><br>\n\n\n</div> <br>\n<button type=\"button\" routerLink=\"/pastmatch\"class=\"raised\" md-raised-button >PastMatch</button>\n\n</div>\n"
 
 /***/ }),
 
