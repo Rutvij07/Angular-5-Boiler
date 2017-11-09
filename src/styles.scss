@@ -2,21 +2,31 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 @import "~@angular/material/prebuilt-themes/purple-green.css";
 
+$bg:#20233E;
+$card:#3A3F65;
+$text:#03BCF1;
+$ff:Didact Gothic;
 
 body{
-  background-color: #20233E;
-  font-family:Didact Gothic;
+  background-color: $bg;
+  font-family:$ff;
 }
 .centerthis{
   text-align: center;
 }
 
   .raised.mat-raised-button{
-  background-color:#3A3F65;
+  background-color:$card;
   color: white;
 }
 
 .basic.mat-card{
-  background-color: #3A3F65;
+  background-color: $card;
   color: white;
+}
+
+.next{
+  float: right;
+  position: relative;
+  bottom:12px;
 }

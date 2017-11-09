@@ -13,7 +13,7 @@ export class ViewComponent implements OnInit {
   ngOnInit() {
   }
   openDialog() {
-    console.log('h')
+    console.log('Dialog')
   // let dialogRef = this.dialog.open(ViewdialogComponent);
 }
 

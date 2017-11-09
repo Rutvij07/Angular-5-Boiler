@@ -10,6 +10,8 @@ import { HomePageModule } from './homepage/homepage.module';
 import { LiveMatchModule } from './livematches/livematches.module';
 import { PastMatchModule } from './pastmatches/pastmatches.module';
 import { MatchViewModule } from './matchview/matchview.module';
+import { AdminModule } from './admin/admin.module';
+
 
 
 
@@ -32,7 +34,8 @@ import { AppRoutingModule } from './app-routing.module'
 		HomePageModule,
 		LiveMatchModule,
 		PastMatchModule,
-		MatchViewModule
+		MatchViewModule,
+		 AdminModule 
    ],
 
 	bootstrap: [AppComponent]

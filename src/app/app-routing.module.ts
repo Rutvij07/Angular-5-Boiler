@@ -6,6 +6,8 @@ const routes: Routes = [
 	{ path: 'livematch' , redirectTo: '/livematch', pathMatch: 'full'},
 	{ path: 'pastmatch' , redirectTo: '/pastmatch', pathMatch: 'full'},
 	{ path: 'matchview' , redirectTo: '/matchview', pathMatch: 'full'},
+	{ path: 'admin' , redirectTo: '/admin', pathMatch: 'full'},
+
 
 
 
