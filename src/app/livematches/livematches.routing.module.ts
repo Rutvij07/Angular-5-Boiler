@@ -5,7 +5,7 @@ import {  LiveMatchComponent } from './livematches.component';
 
 
 const livematchRoutes : Routes = [
-    { path: 'livematch', component:  LiveMatchComponent }
+    { path: '', component:  LiveMatchComponent }
 ]
 
 @NgModule({

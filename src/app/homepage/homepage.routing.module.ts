@@ -4,7 +4,7 @@ import {  HomePageComponent } from './homepage.component';
 
 
 const homepageRoutes : Routes = [
-    { path: 'homepage', component:  HomePageComponent}
+    { path: '', component:  HomePageComponent}
 ]
 
 @NgModule({

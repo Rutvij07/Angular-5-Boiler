@@ -5,7 +5,7 @@ import {  MatchViewComponent } from './matchview.component';
 
 
 const matchviewRoutes : Routes = [
-    { path: 'matchview', component:  MatchViewComponent }
+    { path: '', component:  MatchViewComponent }
 ]
 
 @NgModule({

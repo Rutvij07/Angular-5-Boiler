@@ -5,7 +5,7 @@ import {  PastMatchComponent } from './pastmatches.component';
 
 
 const pastmatchRoutes : Routes = [
-    { path: 'pastmatch', component:  PastMatchComponent }
+    { path: '', component:  PastMatchComponent }
 ]
 
 @NgModule({

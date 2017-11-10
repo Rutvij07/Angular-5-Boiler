@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tournament.component.scss']
 })
 export class TournamentComponent implements OnInit {
+  sportsValue:any;
+  searchMatch:any;
   sports = [
    {tValue: 'Cricket'},
    {tValue: 'Tennis'},

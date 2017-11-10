@@ -12,8 +12,8 @@ import {LandingComponent} from '../admin/landing/landing.component'
 
 
 const adminRoutes : Routes = [
-    { path: 'admin', component:  AdminComponent , children:[
-      {path:'',component: LandingComponent },      
+    { path: '', component:  AdminComponent , children:[
+      {path:'',component: LandingComponent },
       {path:'tournament',component: TournamentComponent },
       {path:'match',component: MatchComponent },
 

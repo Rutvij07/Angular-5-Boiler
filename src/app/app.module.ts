@@ -3,21 +3,19 @@ import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 //components
+import { LandingComponent } from './landing/landing.component'
 import { AppComponent } from './app.component';
 
 //modules
-import { HomePageModule } from './homepage/homepage.module';
-import { LiveMatchModule } from './livematches/livematches.module';
-import { PastMatchModule } from './pastmatches/pastmatches.module';
-import { MatchViewModule } from './matchview/matchview.module';
-import { AdminModule } from './admin/admin.module';
+import { SharedModule } from './sharedmodule/shared.module';
+
 
 
 
 
 
 //routing modules
-import { AppRoutingModule } from './app-routing.module'
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -25,17 +23,14 @@ import { AppRoutingModule } from './app-routing.module'
 	declarations:
 	[
 		AppComponent,
+		LandingComponent,
 	],
 	imports:
 	[
 		BrowserModule,
 		BrowserAnimationsModule,
 		AppRoutingModule,
-		HomePageModule,
-		LiveMatchModule,
-		PastMatchModule,
-		MatchViewModule,
-		 AdminModule 
+		SharedModule
    ],
 
 	bootstrap: [AppComponent]
