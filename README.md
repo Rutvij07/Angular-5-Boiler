@@ -1,4 +1,4 @@
-# WMP - Engine
+# Boiler Plate
 
 ## Development server
 
