@@ -6,30 +6,29 @@ webpackJsonp([6,9],{
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(116);
 
 
 
 
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["enableProdMode"])();
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
 
 /***/ }),
 
-/***/ 104:
+/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nav_nav_component__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_material__ = __webpack_require__(108);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SharedModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -43,37 +42,33 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 //components
 
-
 var SharedModule = (function () {
     function SharedModule() {
     }
     return SharedModule;
 }());
 SharedModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_common__["a" /* CommonModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["a" /* MdIconModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["b" /* MdMenuModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["c" /* MdButtonModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["d" /* MdCardModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["a" /* MdIconModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["b" /* MdMenuModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["c" /* MdButtonModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["d" /* MdCardModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["e" /* MdInputModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["f" /* MdSelectModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["e" /* MdInputModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["f" /* MdSelectModule */],
         ],
-        declarations: [
-            __WEBPACK_IMPORTED_MODULE_3__nav_nav_component__["a" /* NavComponent */]
-        ],
+        declarations: [],
         exports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_common__["a" /* CommonModule */],
-            __WEBPACK_IMPORTED_MODULE_3__nav_nav_component__["a" /* NavComponent */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["a" /* MdIconModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["b" /* MdMenuModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["c" /* MdButtonModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["d" /* MdCardModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["a" /* MdIconModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["b" /* MdMenuModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["c" /* MdButtonModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["d" /* MdCardModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["e" /* MdInputModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["f" /* MdSelectModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["e" /* MdInputModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_material__["f" /* MdSelectModule */],
         ]
     })
 ], SharedModule);
@@ -89,16 +84,16 @@ SharedModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routerTransition; });
 
-var routerTransition = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('routerTransition', [
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('void', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ position: 'absolute', width: '100%', height: '100%', opacity: 0 })),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('*', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ position: 'absolute', width: '100%', height: '100%', opacity: 1 })),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])(':enter', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(20%)', opacity: 0 }),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])('0.8s ease-in-out', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(0%)', opacity: 1 }))
+var routerTransition = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* trigger */])('routerTransition', [
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_20" /* state */])('void', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ position: 'absolute', width: '100%', height: '100%', opacity: 0 })),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_20" /* state */])('*', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ position: 'absolute', width: '100%', height: '100%', opacity: 1 })),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_22" /* transition */])(':enter', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ transform: 'translateY(20%)', opacity: 0 }),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_23" /* animate */])('0.8s ease-in-out', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ transform: 'translateY(0%)', opacity: 1 }))
     ]),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])(':leave', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(0%)' }),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])('0.8s ease-in-out', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(-20%)', opacity: 0 }))
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_22" /* transition */])(':leave', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ transform: 'translateY(0%)' }),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_23" /* animate */])('0.8s ease-in-out', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ transform: 'translateY(-20%)', opacity: 0 }))
     ])
 ]);
 //# sourceMappingURL=animations.js.map
@@ -110,7 +105,7 @@ var routerTransition = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angula
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__landing_landing_component__ = __webpack_require__(69);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -137,7 +132,7 @@ var AppRoutingModule = (function () {
     return AppRoutingModule;
 }());
 AppRoutingModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
         imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forRoot(routes)],
         exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
     })
@@ -168,10 +163,10 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(175),
-        styles: [__webpack_require__(172)],
+        template: __webpack_require__(172),
+        styles: [__webpack_require__(170)],
         animations: [__WEBPACK_IMPORTED_MODULE_1__animations__["a" /* routerTransition */]],
         host: { '[@routerTransition]': '' }
     })
@@ -185,13 +180,13 @@ AppComponent = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_animations__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__landing_landing_component__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sharedmodule_shared_module__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_routing_module__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sharedmodule_shared_module__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_animations__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_routing_module__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__landing_landing_component__ = __webpack_require__(69);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -200,14 +195,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 
+//modules
 
+
+
+//routing modules
 
 //components
 
-
-//modules
-
-//routing modules
 
 var AppModule = (function () {
     function AppModule() {
@@ -215,18 +210,18 @@ var AppModule = (function () {
     return AppModule;
 }());
 AppModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_3__landing_landing_component__["a" /* LandingComponent */],
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_6__landing_landing_component__["a" /* LandingComponent */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-            __WEBPACK_IMPORTED_MODULE_6__app_routing_module__["a" /* AppRoutingModule */],
-            __WEBPACK_IMPORTED_MODULE_5__sharedmodule_shared_module__["a" /* SharedModule */]
+            __WEBPACK_IMPORTED_MODULE_4__app_routing_module__["a" /* AppRoutingModule */],
+            __WEBPACK_IMPORTED_MODULE_1__sharedmodule_shared_module__["a" /* SharedModule */]
         ],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -235,42 +230,6 @@ AppModule = __decorate([
 /***/ }),
 
 /***/ 116:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var NavComponent = (function () {
-    function NavComponent() {
-    }
-    NavComponent.prototype.ngOnInit = function () {
-    };
-    return NavComponent;
-}());
-NavComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-nav',
-        template: __webpack_require__(177),
-        styles: [__webpack_require__(174)]
-    }),
-    __metadata("design:paramtypes", [])
-], NavComponent);
-
-//# sourceMappingURL=nav.component.js.map
-
-/***/ }),
-
-/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -287,82 +246,57 @@ var environment = {
 
 /***/ }),
 
+/***/ 170:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(33)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 171:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(33)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
 /***/ 172:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(19)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 173:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(19)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 174:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(19)(false);
-// imports
-
-
-// module
-exports.push([module.i, "#logo {\n  padding: 10px;\n  height: 52px; }\n\n@media screen and (max-width: 39.9375em) {\n  #logo, .cta-btn {\n    display: block; }\n  .cta-btn {\n    width: 100%;\n    text-align: center;\n    margin-top: 20px;\n    overflow-x: hidden;\n    padding-left: 30px;\n    padding-right: 30px; }\n  .header {\n    margin-bottom: 0; } }\n\n.mat-elevation-z6 {\n  background-color: #20233E;\n  z-index: 10;\n  width: 100%;\n  position: fixed; }\n\n.col-md-6 {\n  padding: unset; }\n\n.mat-icon-button {\n  position: relative;\n  top: 7px;\n  float: right; }\n\ni {\n  color: #03BCF1; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 175:
 /***/ (function(module, exports) {
 
 module.exports = "<router-outlet></router-outlet>\n"
 
 /***/ }),
 
-/***/ 176:
+/***/ 173:
 /***/ (function(module, exports) {
 
-module.exports = "<br><br><div class=\"centerthis\">\n  <button type=\"button\" routerLink=\"/homepage\"class=\"raised\" md-raised-button>Show My Odds</button>\n</div>\n"
+module.exports = "<br><br>\n<div class=\"centerthis container\">\n   <div class=\"row\">\n     <div class=\"col-md-12\">\n       <h1>Welcome</h1>\n     </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 177:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"mat-elevation-z6\">\n  <div class=\"container\">\n    <div class=\"col-md-6 col-xs-6\">\n    <a><img src=\"/assets/images/logo.svg\" id=\"logo\"></a>\n    </div>\n    <div class=\" col-md-4\">\n\n    </div>\n    <div class=\"col-md-2 col-xs-6\">\n\n      <button md-icon-button [mdMenuTriggerFor]=\"menu\">\n      <i class=\"material-icons\" type=\"button\">face</i>\n      </button>\n      <button md-icon-button>\n      <i class=\"material-icons\" type=\"button\">more_vert</i>\n      </button>\n\n      <md-menu #menu=\"mdMenu\">\n        <button md-menu-item>\n        <md-icon> perm_identity </md-icon>\n        <span>KYC</span>\n        </button>\n        <button md-menu-item>\n        <md-icon>book</md-icon>\n        <span>Knowledge Center</span>\n        </button>\n        <button  md-menu-item>\n        <md-icon>backspace</md-icon>\n        <span>Logout</span>\n        </button>\n      </md-menu>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ 215:
+/***/ 211:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(100);
@@ -394,10 +328,10 @@ var LandingComponent = (function () {
     return LandingComponent;
 }());
 LandingComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'app-landing',
-        template: __webpack_require__(176),
-        styles: [__webpack_require__(173)]
+        template: __webpack_require__(173),
+        styles: [__webpack_require__(171)]
     }),
     __metadata("design:paramtypes", [])
 ], LandingComponent);
@@ -411,24 +345,24 @@ LandingComponent = __decorate([
 
 var map = {
 	"./admin/admin.module": [
-		218,
-		1
-	],
-	"./homepage/homepage.module": [
-		219,
-		2
-	],
-	"./livematches/livematches.module": [
-		220,
+		214,
 		4
 	],
+	"./homepage/homepage.module": [
+		215,
+		3
+	],
+	"./livematches/livematches.module": [
+		216,
+		2
+	],
 	"./matchview/matchview.module": [
-		221,
-		0
+		217,
+		1
 	],
 	"./pastmatches/pastmatches.module": [
-		222,
-		3
+		218,
+		0
 	]
 };
 function webpackAsyncContext(req) {
@@ -447,5 +381,5 @@ webpackAsyncContext.id = 99;
 
 /***/ })
 
-},[215]);
+},[211]);
 //# sourceMappingURL=main.bundle.js.map

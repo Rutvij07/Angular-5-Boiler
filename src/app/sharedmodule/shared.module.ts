@@ -5,7 +5,6 @@ import { CommonModule } from '@angular/common';
 import {FormsModule} from "@angular/forms";
 
 //components
-import {NavComponent} from '../nav/nav.component'
 
 import {
   MdIconModule,
@@ -30,11 +29,9 @@ import {
 
   ],
   declarations:[
-    NavComponent
   ],
   exports: [
     CommonModule,
-    NavComponent,
     MdIconModule,
     MdMenuModule ,
     MdButtonModule,

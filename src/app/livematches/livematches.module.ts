@@ -2,13 +2,18 @@ import { NgModule } from '@angular/core';
 
 //modules
 import { SharedModule } from '../sharedmodule/shared.module';
+import {LiveMatchRoutingModule} from './livematches.routing.module'
 
 //components
+import {LiveMatchComponent} from './livematches.component';
 
 @NgModule({
-	declarations: [	],
+	declarations: [
+	LiveMatchComponent
+],
 	imports: [
-  SharedModule
+  SharedModule,
+	LiveMatchRoutingModule
 	],
 	providers: [
 

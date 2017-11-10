@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-
+//components
+import{PastMatchComponent} from './pastmatches.component'
 
 const pastmatchRoutes : Routes = [
+  { path: '', component:  PastMatchComponent }
+
 ]
 
 @NgModule({

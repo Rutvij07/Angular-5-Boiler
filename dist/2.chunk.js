@@ -1,17 +1,15 @@
 webpackJsonp([2,9],{
 
-/***/ 219:
+/***/ 216:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sharedmodule_shared_module__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__homepage_routing_module__ = __webpack_require__(359);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__homepage_component__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__view_view_component__ = __webpack_require__(360);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__viewdialog_viewdialog_component__ = __webpack_require__(361);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageModule", function() { return HomePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sharedmodule_shared_module__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__livematches_routing_module__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__livematches_component__ = __webpack_require__(227);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LiveMatchModule", function() { return LiveMatchModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -19,44 +17,39 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 
-//module
+//modules
 
 
 //components
 
-
-
-var HomePageModule = (function () {
-    function HomePageModule() {
+var LiveMatchModule = (function () {
+    function LiveMatchModule() {
     }
-    return HomePageModule;
+    return LiveMatchModule;
 }());
-HomePageModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        entryComponents: [__WEBPACK_IMPORTED_MODULE_5__viewdialog_viewdialog_component__["a" /* ViewdialogComponent */]],
+LiveMatchModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_3__homepage_component__["a" /* HomePageComponent */],
-            __WEBPACK_IMPORTED_MODULE_4__view_view_component__["a" /* ViewComponent */],
-            __WEBPACK_IMPORTED_MODULE_5__viewdialog_viewdialog_component__["a" /* ViewdialogComponent */],
+            __WEBPACK_IMPORTED_MODULE_3__livematches_component__["a" /* LiveMatchComponent */]
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_2__homepage_routing_module__["a" /* HomePageRoutingModule */],
             __WEBPACK_IMPORTED_MODULE_1__sharedmodule_shared_module__["a" /* SharedModule */],
+            __WEBPACK_IMPORTED_MODULE_2__livematches_routing_module__["a" /* LiveMatchRoutingModule */]
         ],
         providers: []
     })
-], HomePageModule);
+], LiveMatchModule);
 
-//# sourceMappingURL=homepage.module.js.map
+//# sourceMappingURL=livematches.module.js.map
 
 /***/ }),
 
-/***/ 234:
+/***/ 227:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePageComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LiveMatchComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -64,31 +57,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 
-var HomePageComponent = (function () {
-    function HomePageComponent() {
+var LiveMatchComponent = (function () {
+    function LiveMatchComponent() {
     }
-    return HomePageComponent;
+    return LiveMatchComponent;
 }());
-HomePageComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'homepage',
-        template: __webpack_require__(434),
-        styles: [__webpack_require__(418)],
+LiveMatchComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'livematch',
+        template: __webpack_require__(230),
+        styles: [__webpack_require__(229)],
     })
-], HomePageComponent);
+], LiveMatchComponent);
 
-//# sourceMappingURL=homepage.component.js.map
+//# sourceMappingURL=livematches.component.js.map
 
 /***/ }),
 
-/***/ 359:
+/***/ 228:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__homepage_component__ = __webpack_require__(234);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePageRoutingModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__livematches_component__ = __webpack_require__(227);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LiveMatchRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -97,110 +90,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 
 
+//components
 
-var homepageRoutes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_2__homepage_component__["a" /* HomePageComponent */] }
+var livematchRoutes = [
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_2__livematches_component__["a" /* LiveMatchComponent */] }
 ];
-var HomePageRoutingModule = (function () {
-    function HomePageRoutingModule() {
+var LiveMatchRoutingModule = (function () {
+    function LiveMatchRoutingModule() {
     }
-    return HomePageRoutingModule;
+    return LiveMatchRoutingModule;
 }());
-HomePageRoutingModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(homepageRoutes)],
+LiveMatchRoutingModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(livematchRoutes)],
         exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
     })
-], HomePageRoutingModule);
+], LiveMatchRoutingModule);
 
-//# sourceMappingURL=homepage.routing.module.js.map
-
-/***/ }),
-
-/***/ 360:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ViewComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-var ViewComponent = (function () {
-    function ViewComponent() {
-    }
-    // constructor(public dialog:MdDialog) { }
-    ViewComponent.prototype.ngOnInit = function () {
-    };
-    ViewComponent.prototype.openDialog = function () {
-        console.log('Dialog');
-        // let dialogRef = this.dialog.open(ViewdialogComponent);
-    };
-    return ViewComponent;
-}());
-ViewComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-view',
-        template: __webpack_require__(435),
-        styles: [__webpack_require__(419)]
-    })
-], ViewComponent);
-
-//# sourceMappingURL=view.component.js.map
+//# sourceMappingURL=livematches.routing.module.js.map
 
 /***/ }),
 
-/***/ 361:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material__ = __webpack_require__(105);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ViewdialogComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ViewdialogComponent = (function () {
-    function ViewdialogComponent(dialogRef) {
-        this.dialogRef = dialogRef;
-    }
-    ViewdialogComponent.prototype.ngOnInit = function () {
-    };
-    ViewdialogComponent.prototype.answerYes = function () {
-        this.dialogRef.close();
-    };
-    return ViewdialogComponent;
-}());
-ViewdialogComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-viewdialog',
-        template: __webpack_require__(436),
-        styles: [__webpack_require__(420)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_material__["g" /* MdDialogRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_material__["g" /* MdDialogRef */]) === "function" && _a || Object])
-], ViewdialogComponent);
-
-var _a;
-//# sourceMappingURL=viewdialog.component.js.map
-
-/***/ }),
-
-/***/ 418:
+/***/ 229:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(19)(false);
+exports = module.exports = __webpack_require__(33)(false);
 // imports
 
 
@@ -215,60 +129,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 419:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(19)(false);
-// imports
-
-
-// module
-exports.push([module.i, "h2, p {\n  color: #03BCF1; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 420:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(19)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 434:
+/***/ 230:
 /***/ (function(module, exports) {
 
-module.exports = "<app-nav></app-nav> <br><br>\n<app-view></app-view>\n"
-
-/***/ }),
-
-/***/ 435:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-4 col-xs-4\">\n\n    </div>\n    <div class=\" col-md-4 col-xs-4\">\n\n    <h2> H2</h2>\n    <p>P</p>\n    <button type=\"button\" routerLink=\"/livematch\"class=\"raised\" md-raised-button (click)=\"openDialog()\">Show</button>\n\n    </div>\n    <div class=\"col-md-4 col-xs-2\">\n\n\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ 436:
-/***/ (function(module, exports) {
-
-module.exports = "<h2 style=\"text-align:center;\">Are you sure?</h2>\n  <img src= \"/assets/images/logo.svg\" height=\"70px\" width =\"70px\" class=\"center-block\">\n    <div class=\"center\">\n      <hr>\n      <button md-button (click)=\"answerYes()\">Yes</button>\n      <button md-button (click)=\"dialogRef.close()\">No</button>\n    </div>\n"
+module.exports = "<br><br>\n<div class=\"centerthis container\">\n   <div class=\"row\">\n     <div class=\"col-md-12\">\n       <h1>LiveMatch</h1>\n     </div>\n  </div>\n</div>\n"
 
 /***/ })
 
