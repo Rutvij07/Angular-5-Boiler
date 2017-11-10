@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {  MatchViewComponent } from './matchview.component';
 
 
 
-const matchviewRoutes : Routes = [
-    { path: '', component:  MatchViewComponent }
-]
+const matchviewRoutes : Routes = []
 
 @NgModule({
   imports: [ RouterModule.forChild(matchviewRoutes) ],

@@ -9,5 +9,5 @@ import { routerTransition } from './animations';
 	host: { '[@routerTransition]': '' }
 })
 export class AppComponent {
-	
+
 }

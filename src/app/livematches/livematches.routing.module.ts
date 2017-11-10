@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {  LiveMatchComponent } from './livematches.component';
 
 
 
 const livematchRoutes : Routes = [
-    { path: '', component:  LiveMatchComponent }
 ]
 
 @NgModule({

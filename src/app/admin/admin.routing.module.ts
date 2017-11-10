@@ -4,20 +4,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 //components
-import {  AdminComponent } from './admin.component';
-import {TournamentComponent} from '../admin/tournament/tournament.component'
-import {MatchComponent} from '../admin/match/match.component'
-import {LandingComponent} from '../admin/landing/landing.component'
 
 
 
 const adminRoutes : Routes = [
-    { path: '', component:  AdminComponent , children:[
-      {path:'',component: LandingComponent },
-      {path:'tournament',component: TournamentComponent },
-      {path:'match',component: MatchComponent },
-
-    ] }
+    
 ]
 
 @NgModule({
