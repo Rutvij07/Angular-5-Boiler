@@ -6,7 +6,7 @@ import { LandingComponent } from './landing/landing.component';
 
 
 const routes: Routes = [
-	{ path: '' , component:LandingComponent},
+{ path: '' , component:LandingComponent},
 { path: 'homepage' , loadChildren:'./homepage/homepage.module#HomePageModule'},
 { path: 'livematch' , loadChildren:'./livematches/livematches.module#LiveMatchModule'},
 { path: 'pastmatch' , loadChildren:'./pastmatches/pastmatches.module#PastMatchModule'},

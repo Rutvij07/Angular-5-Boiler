@@ -1,13 +1,13 @@
 webpackJsonp([1,9],{
 
-/***/ 217:
+/***/ 226:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sharedmodule_shared_module__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__matchview_routing_module__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sharedmodule_shared_module__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__matchview_routing_module__ = __webpack_require__(236);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__matchview_component__ = __webpack_require__(231);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MatchViewModule", function() { return MatchViewModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -65,8 +65,8 @@ var MatchViewComponent = (function () {
 MatchViewComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'matchview',
-        template: __webpack_require__(234),
-        styles: [__webpack_require__(233)],
+        template: __webpack_require__(246),
+        styles: [__webpack_require__(241)],
     })
 ], MatchViewComponent);
 
@@ -74,12 +74,12 @@ MatchViewComponent = __decorate([
 
 /***/ }),
 
-/***/ 232:
+/***/ 236:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__matchview_component__ = __webpack_require__(231);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MatchViewRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -111,10 +111,10 @@ MatchViewRoutingModule = __decorate([
 
 /***/ }),
 
-/***/ 233:
+/***/ 241:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(33)(false);
+exports = module.exports = __webpack_require__(19)(false);
 // imports
 
 
@@ -129,7 +129,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 234:
+/***/ 246:
 /***/ (function(module, exports) {
 
 module.exports = "<br><br>\n<div class=\"centerthis container\">\n   <div class=\"row\">\n     <div class=\"col-md-12\">\n       <h1>MatchView</h1>\n     </div>\n  </div>\n</div>\n"
