@@ -1,4 +1,10 @@
 import { NgModule } from '@angular/core';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+
+
+
 
 
 
@@ -26,7 +32,11 @@ import { LandingComponent } from './landing/landing.component';
 		BrowserModule,
 		BrowserAnimationsModule,
 		AppRoutingModule,
-		SharedModule
+		SharedModule,
+		MatExpansionModule,
+		MatCardModule,
+		MatButtonModule
+
    ],
 
 	bootstrap: [AppComponent]
