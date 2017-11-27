@@ -81,7 +81,7 @@ var MatchViewModule = (function () {
     function MatchViewModule() {
     }
     MatchViewModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__matchview_component__["a" /* MatchViewComponent */]
             ],
@@ -124,7 +124,7 @@ var MatchViewRoutingModule = (function () {
     function MatchViewRoutingModule() {
     }
     MatchViewRoutingModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(matchviewRoutes)],
             exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
         })

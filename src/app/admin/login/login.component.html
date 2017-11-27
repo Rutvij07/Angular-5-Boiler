@@ -1,0 +1,21 @@
+<br><br>
+<div class="centerthis container">
+   <div class="row">
+     <div class="col-md-4"></div>
+     <div class="col-md-4">
+      <mat-card>
+        <mat-card-title>Login </mat-card-title>
+        <div class="login-form">
+            <mat-form-field>
+              <input [(ngModel)]="username" matInput placeholder="Username">
+            </mat-form-field>
+            <mat-form-field>
+              <input [(ngModel)]="password" matInput placeholder="Password">
+            </mat-form-field><br>
+            <button id="submit" (click)="submitInfo()" mat-raised-button>Submit</button>            
+        </div>
+      </mat-card>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>

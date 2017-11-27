@@ -48,16 +48,16 @@ module.exports = webpackAsyncContext;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routerTransition; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
 
-var routerTransition = Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_23" /* trigger */])('routerTransition', [
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_20" /* state */])('void', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ position: 'absolute', width: '100%', height: '100%', opacity: 0 })),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_20" /* state */])('*', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ position: 'absolute', width: '100%', height: '100%', opacity: 1 })),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_22" /* transition */])(':enter', [
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ transform: 'translateY(20%)', opacity: 0 }),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* animate */])('0.8s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ transform: 'translateY(0%)', opacity: 1 }))
+var routerTransition = Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* trigger */])('routerTransition', [
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_23" /* state */])('void', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* style */])({ position: 'absolute', width: '100%', height: '100%', opacity: 0 })),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_23" /* state */])('*', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* style */])({ position: 'absolute', width: '100%', height: '100%', opacity: 1 })),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* transition */])(':enter', [
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* style */])({ transform: 'translateY(20%)', opacity: 0 }),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* animate */])('0.8s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* style */])({ transform: 'translateY(0%)', opacity: 1 }))
     ]),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_22" /* transition */])(':leave', [
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ transform: 'translateY(0%)' }),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* animate */])('0.8s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* style */])({ transform: 'translateY(-20%)', opacity: 0 }))
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* transition */])(':leave', [
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* style */])({ transform: 'translateY(0%)' }),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* animate */])('0.8s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* style */])({ transform: 'translateY(-20%)', opacity: 0 }))
     ])
 ]);
 
@@ -94,7 +94,7 @@ var AppRoutingModule = (function () {
     function AppRoutingModule() {
     }
     AppRoutingModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forRoot(routes)],
             exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
         })
@@ -203,7 +203,7 @@ var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* AppComponent */],
                 __WEBPACK_IMPORTED_MODULE_9__landing_landing_component__["a" /* LandingComponent */],
@@ -230,7 +230,7 @@ var AppModule = (function () {
 /***/ "../../../../../src/app/landing/landing.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Welcome to landing page</h1>\n\n\n<mat-card>Simple card</mat-card>\n<button mat-mini-fab>Click me!</button>\n\n \n<mat-accordion>\n    <mat-expansion-panel>\n      <mat-expansion-panel-header>\n        <mat-panel-title>\n          Personal data\n        </mat-panel-title>\n        <mat-panel-description>\n          Type your name and age\n        </mat-panel-description>\n      </mat-expansion-panel-header>\n  \n      <mat-form-field>\n        <input matInput placeholder=\"First name\">\n      </mat-form-field>\n  \n      <mat-form-field>\n        <input matInput placeholder=\"Age\">\n      </mat-form-field>\n    </mat-expansion-panel>\n    <mat-expansion-panel (opened)=\"panelOpenState = true\"\n                         (closed)=\"panelOpenState = false\">\n      <mat-expansion-panel-header>\n        <mat-panel-title>\n          Self aware panel\n        </mat-panel-title>\n        <mat-panel-description>\n          Currently I am {{panelOpenState ? 'open' : 'closed'}}\n        </mat-panel-description>\n      </mat-expansion-panel-header>\n      <p>I'm visible because I am open</p>\n    </mat-expansion-panel>\n  </mat-accordion> \n   "
+module.exports = "<!-- <h1>Welcome to Angular 5</h1>\n\n\n<mat-card>Simple card</mat-card>\n\n<button mat-mini-fab>ng5</button>\n\n\n    -->"
 
 /***/ }),
 
@@ -296,6 +296,7 @@ var LandingComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("../../../common/esm5/common.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("../../../forms/esm5/forms.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_material__ = __webpack_require__("../../../material/esm5/material.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -306,18 +307,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 //modules
 
 
+//components
+
 var SharedModule = (function () {
     function SharedModule() {
     }
     SharedModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_material__["b" /* MatCardModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_material__["a" /* MatButtonModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_material__["d" /* MatInputModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_material__["c" /* MatIconModule */]
             ],
             declarations: [],
             exports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
-                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_material__["b" /* MatCardModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_material__["a" /* MatButtonModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_material__["d" /* MatInputModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_material__["c" /* MatIconModule */]
             ]
         })
     ], SharedModule);
@@ -358,7 +369,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* enableProdMode */])();
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_17" /* enableProdMode */])();
 }
 Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
 

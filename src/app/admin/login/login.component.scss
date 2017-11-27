@@ -1,0 +1,13 @@
+.mat-card{
+    background-color:white !important;
+    color: black ;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+}
+
+:host /deep/ .mat-input-placeholder { //angular special css selector
+    color: black;
+ }

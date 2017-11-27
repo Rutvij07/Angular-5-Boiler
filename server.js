@@ -6,14 +6,17 @@ const app = express();
 
 const mongoose = require('mongoose');
 
-
+const api = require('./server/routes/api');
+const auth = require('./server/routes/auth');
 
 
 // Parsers
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
 
-
+//Api routes
+app.use('/api',api);
+app.use('/auth',auth);
 
 // Angular 4 DIST output folder
 app.use(express.static(path.join(__dirname, 'dist')));
@@ -24,7 +27,7 @@ app.get('*', (req, res) => {
 });
 
 //Set Port
-const port = process.env.PORT || '3001';
+const port = process.env.PORT || '8080';
 app.set('port', port);
 
 const server = http.createServer(app);

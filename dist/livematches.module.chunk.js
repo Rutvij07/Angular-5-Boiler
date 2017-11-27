@@ -81,7 +81,7 @@ var LiveMatchModule = (function () {
     function LiveMatchModule() {
     }
     LiveMatchModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__livematches_component__["a" /* LiveMatchComponent */]
             ],
@@ -124,7 +124,7 @@ var LiveMatchRoutingModule = (function () {
     function LiveMatchRoutingModule() {
     }
     LiveMatchRoutingModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(livematchRoutes)],
             exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
         })

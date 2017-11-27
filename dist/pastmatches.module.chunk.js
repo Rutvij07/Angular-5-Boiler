@@ -81,7 +81,7 @@ var PastMatchModule = (function () {
     function PastMatchModule() {
     }
     PastMatchModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__pastmatches_component__["a" /* PastMatchComponent */]
             ],
@@ -124,7 +124,7 @@ var PastMatchRoutingModule = (function () {
     function PastMatchRoutingModule() {
     }
     PastMatchRoutingModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(pastmatchRoutes)],
             exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
         })
