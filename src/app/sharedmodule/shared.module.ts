@@ -3,42 +3,42 @@ import {NgModule} from "@angular/core";
 //modules
 import { CommonModule } from '@angular/common';
 import {FormsModule} from "@angular/forms";
+import {MatCardModule} from '@angular/material/card';
+
+
+
 
 //components
 
+import {MatMenuModule} from '@angular/material/menu';
 import {
-  MdIconModule,
-  MdMenuModule ,
-  MdButtonModule,
-  MdCardModule,
-  MdInputModule,
-  MdSelectModule,
+  MatButtonModule,
+  MatInputModule,
+  MatIconModule
 } from '@angular/material';
 
 
 @NgModule({
   imports:[
     CommonModule,
-    MdIconModule,
-  	MdMenuModule ,
-  	MdButtonModule,
-    MdCardModule,
-    FormsModule,
-    MdInputModule,
-    MdSelectModule,
-
+    MatCardModule,
+    MatIconModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatInputModule
+  
   ],
   declarations:[
   ],
   exports: [
     CommonModule,
-    MdIconModule,
-    MdMenuModule ,
-    MdButtonModule,
-    MdCardModule,
     FormsModule,
-    MdInputModule,
-    MdSelectModule,
+    MatCardModule,
+    MatIconModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatInputModule
+    
     ]
 
 })
