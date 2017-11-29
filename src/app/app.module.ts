@@ -20,8 +20,6 @@ import { AppRoutingModule } from './app-routing.module';
 //components
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
-import { AddbuilderComponent } from './admin/builder/addbuilder/addbuilder.component';
-import { ManagebuilderComponent } from './admin/builder/managebuilder/managebuilder.component';
 
 
 @NgModule({
@@ -29,8 +27,7 @@ import { ManagebuilderComponent } from './admin/builder/managebuilder/managebuil
 	[
 		AppComponent,
 		LandingComponent,
-		AddbuilderComponent,
-		ManagebuilderComponent,
+		
 	],
 	imports:
 	[

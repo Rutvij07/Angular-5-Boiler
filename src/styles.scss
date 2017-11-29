@@ -1,17 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 
-@import "~@angular/material/prebuilt-themes/purple-green.css";
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 
 $bg: #ECF0F2;
 
 
 
-.mat-card{
-    background-color: white !important;
-    color: black !important;
-  
-}
+
 
 body.admin {
     background-color: $bg !important;
@@ -19,13 +15,8 @@ body.admin {
     height: 100%;
 }
 
-
-
-.mat-menu-content{
-    background: white !important;
-}
-.mat-menu-item{
-    color: black !important;
+.centerthis{
+    text-align: center
 }
 
 

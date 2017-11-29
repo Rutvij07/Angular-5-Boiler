@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 
 const api = require('./server/routes/api');
 const auth = require('./server/routes/auth');
+const builderApi = require('./server/routes/builderApi');
 
 
 // Parsers
@@ -17,6 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false}));
 //Api routes
 app.use('/api',api);
 app.use('/auth',auth);
+app.use('/builderApi',builderApi);
 
 // Angular 4 DIST output folder
 app.use(express.static(path.join(__dirname, 'dist')));

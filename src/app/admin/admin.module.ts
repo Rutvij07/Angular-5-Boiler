@@ -5,6 +5,8 @@ import { NgModule } from '@angular/core';
  import { AdminRoutingModule } from './admin.routing.module';
  import {MatFormFieldModule} from '@angular/material/form-field';
  import { HttpModule } from '@angular/http';
+ import {MatExpansionModule} from '@angular/material/expansion';
+ 
  
 
 
@@ -13,6 +15,8 @@ import { NgModule } from '@angular/core';
 import {AdminComponent} from './admin.component'
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from 'app/admin/login/login.component';
+import { AddbuilderComponent } from '../admin/builder/addbuilder/addbuilder.component';
+import { ManagebuilderComponent } from '../admin/builder/managebuilder/managebuilder.component';
 
 
 @NgModule({
@@ -20,13 +24,16 @@ import { LoginComponent } from 'app/admin/login/login.component';
 	declarations: [
 		AdminComponent,
 		DashboardComponent,		
-		LoginComponent
+		LoginComponent,
+		AddbuilderComponent,
+		ManagebuilderComponent,
   ],
 	imports: [
 	 SharedModule,
 	 AdminRoutingModule,
 	 MatFormFieldModule,
-	 HttpModule
+	 HttpModule,
+	 MatExpansionModule
 	],
 	providers: [
 

@@ -41,128 +41,6 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ "../../../../../src/app/admin/builder/addbuilder/addbuilder.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  addbuilder works!\n</p>\n"
-
-/***/ }),
-
-/***/ "../../../../../src/app/admin/builder/addbuilder/addbuilder.component.scss":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ "../../../../../src/app/admin/builder/addbuilder/addbuilder.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddbuilderComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var AddbuilderComponent = (function () {
-    function AddbuilderComponent() {
-    }
-    AddbuilderComponent.prototype.ngOnInit = function () {
-    };
-    AddbuilderComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'app-addbuilder',
-            template: __webpack_require__("../../../../../src/app/admin/builder/addbuilder/addbuilder.component.html"),
-            styles: [__webpack_require__("../../../../../src/app/admin/builder/addbuilder/addbuilder.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], AddbuilderComponent);
-    return AddbuilderComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "../../../../../src/app/admin/builder/managebuilder/managebuilder.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  managebuilder works!\n</p>\n"
-
-/***/ }),
-
-/***/ "../../../../../src/app/admin/builder/managebuilder/managebuilder.component.scss":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ "../../../../../src/app/admin/builder/managebuilder/managebuilder.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ManagebuilderComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var ManagebuilderComponent = (function () {
-    function ManagebuilderComponent() {
-    }
-    ManagebuilderComponent.prototype.ngOnInit = function () {
-    };
-    ManagebuilderComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'app-managebuilder',
-            template: __webpack_require__("../../../../../src/app/admin/builder/managebuilder/managebuilder.component.html"),
-            styles: [__webpack_require__("../../../../../src/app/admin/builder/managebuilder/managebuilder.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], ManagebuilderComponent);
-    return ManagebuilderComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "../../../../../src/app/animations.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -302,8 +180,6 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__landing_landing_component__ = __webpack_require__("../../../../../src/app/landing/landing.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__admin_builder_addbuilder_addbuilder_component__ = __webpack_require__("../../../../../src/app/admin/builder/addbuilder/addbuilder.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__admin_builder_managebuilder_managebuilder_component__ = __webpack_require__("../../../../../src/app/admin/builder/managebuilder/managebuilder.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -323,8 +199,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 //components
 
 
-
-
 var AppModule = (function () {
     function AppModule() {
     }
@@ -333,8 +207,6 @@ var AppModule = (function () {
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* AppComponent */],
                 __WEBPACK_IMPORTED_MODULE_9__landing_landing_component__["a" /* LandingComponent */],
-                __WEBPACK_IMPORTED_MODULE_10__admin_builder_addbuilder_addbuilder_component__["a" /* AddbuilderComponent */],
-                __WEBPACK_IMPORTED_MODULE_11__admin_builder_managebuilder_managebuilder_component__["a" /* ManagebuilderComponent */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__["a" /* BrowserModule */],

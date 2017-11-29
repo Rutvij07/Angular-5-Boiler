@@ -8,11 +8,9 @@ var bodyParser = require("body-parser");
 
 const userAdminModel = require('../models/userInfoAdmin');
 
-app.use(bodyParser.urlencoded({
-    extended: true
-  }));
-  
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true}));
+
 
 router.post("/userData",function(req,res) {
     let username = req.body.userName;

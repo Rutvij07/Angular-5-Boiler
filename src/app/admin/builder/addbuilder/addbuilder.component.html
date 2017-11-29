@@ -1,3 +1,142 @@
-<p>
-  addbuilder works!
-</p>
+<body class="admin">  
+  
+    <div class="mat-elevation-z6">
+            <div class="container">
+              <div class="col-md-6 col-xs-6">
+                  <button mat-icon-button [matMenuTriggerFor]="menu">
+                      <i class="material-icons left" type="button">view_headline</i>                                
+                     </button>
+                     <mat-menu #menu="matMenu">
+                       <button mat-menu-item>Logout</button>
+                     </mat-menu>
+              </div>
+              <div class=" col-md-4">
+          
+              </div>
+              <div class="col-md-2 col-xs-6">
+                    <button mat-icon-button  style="float:right;" [matMenuTriggerFor]="menu">
+                     <i class="material-icons"  type="button">person</i>                                
+                    </button>
+                    <mat-menu #menu="matMenu">
+                      <button mat-menu-item>Logout</button>
+                    </mat-menu>
+                    
+             </div>
+            </div>
+          </div>
+          <br>
+          
+<div class="centerthis container admin">
+<div class="row1">
+   <div class="col-md-12">
+        <h3>Add Builders</h3>
+   </div>
+</div>
+</div>
+<br>
+<div class=" centerthis container">
+<div class="row2">
+    <div class="col-md-12 col-xs-12 ">
+        <mat-accordion>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title style="color:black">
+       Builder Personal data
+      </mat-panel-title>
+      <mat-panel-description style="color:black">
+       Company Details
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <mat-form-field>
+      <input matInput placeholder="Group Name" [(ngModel)]="groupName">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Company Name" [(ngModel)]="companyName">
+    </mat-form-field> <br>
+
+    <mat-form-field>
+        <input matInput placeholder="Partner" [(ngModel)]= "partner">
+      </mat-form-field> 
+
+      <mat-form-field>
+          <input matInput placeholder="Company Address" [(ngModel)]="companyAdd">
+        </mat-form-field>
+
+  </mat-expansion-panel>
+ 
+
+  <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title style="color:black">
+         Other Data
+        </mat-panel-title>
+        <mat-panel-description style="color:black">
+          KYC Details
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+  
+      <mat-form-field>
+        <input matInput placeholder="Gst" [(ngModel)]="gst">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="Pan" [(ngModel)] = "pan">
+      </mat-form-field>
+  
+      <mat-form-field>
+          <input matInput placeholder="Tin" [(ngModel)]="tin">
+        </mat-form-field>
+  
+        <mat-form-field>
+            <input matInput placeholder="Website" [(ngModel)]="website">
+          </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Email" [(ngModel)]="email">
+          </mat-form-field>
+
+        <mat-form-field>
+              <input matInput placeholder="Company Contact Person Name" [(ngModel)]="companyPersonName">
+        </mat-form-field>
+
+         <mat-form-field>
+                <input matInput placeholder="Contact Person Name" [(ngModel)]="contactPersonName">
+         </mat-form-field>
+
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title style="color:black">
+           Credentials
+          </mat-panel-title>
+          <mat-panel-description style="color:black">
+            Login
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+    
+        <mat-form-field>
+          <input matInput placeholder="Username" [(ngModel)]="userName">
+        </mat-form-field>
+    
+        <mat-form-field>
+          <input matInput placeholder="Password" [(ngModel)]="password" type="password">
+        </mat-form-field> 
+          
+        <mat-action-row>
+            <button mat-button color="primary" (click)="add()">Save</button>
+          </mat-action-row>
+      </mat-expansion-panel>
+
+      
+   
+</mat-accordion>
+    </div>
+  
+</div>
+</div> 
+<br>
+
+</body>

@@ -7,13 +7,16 @@ import { Routes, RouterModule } from '@angular/router';
 import {AdminComponent} from './admin.component'
 import {DashboardComponent} from '../admin/dashboard/dashboard.component'
 import { LoginComponent } from 'app/admin/login/login.component';
+import { AddbuilderComponent } from 'app/admin/builder/addbuilder/addbuilder.component';
 
 
 
 const adminRoutes : Routes = [
   { path: '', component:  AdminComponent , children : [
    { path: '', component: LoginComponent },
-   { path: 'dashboard', component: DashboardComponent }
+   { path: 'dashboard', component: DashboardComponent },
+   { path: 'addbuilder', component: AddbuilderComponent }
+   
   
   ] },  
  
