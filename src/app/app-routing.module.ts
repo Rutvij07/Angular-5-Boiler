@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 //components
 import { LandingComponent } from './landing/landing.component';
+import { AuthGuard } from 'app/auth/auth.guard';
 
 
 const routes: Routes = [
@@ -11,7 +12,7 @@ const routes: Routes = [
 { path: 'livematch' , loadChildren:'./livematches/livematches.module#LiveMatchModule'},
 { path: 'pastmatch' , loadChildren:'./pastmatches/pastmatches.module#PastMatchModule'},
 { path: 'matchview' , loadChildren:'./matchview/matchview.module#MatchViewModule'},
-{ path: 'admin' , loadChildren:'./admin/admin.module#AdminModule'},
+{ path: 'admin' ,loadChildren:'./admin/admin.module#AdminModule'},
 
 ];
 

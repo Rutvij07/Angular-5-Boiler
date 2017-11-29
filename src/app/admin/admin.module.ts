@@ -13,6 +13,9 @@ import { NgModule } from '@angular/core';
 import {AdminComponent} from './admin.component'
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from 'app/admin/login/login.component';
+import { ManagebuilderComponent } from 'app/admin/builder/managebuilder/managebuilder.component';
+import { AuthGuard } from 'app/auth/auth.guard';
+import { AuthService } from 'app/auth/auth.service';
 
 
 @NgModule({
@@ -20,7 +23,8 @@ import { LoginComponent } from 'app/admin/login/login.component';
 	declarations: [
 		AdminComponent,
 		DashboardComponent,		
-		LoginComponent
+		LoginComponent,
+		ManagebuilderComponent,
   ],
 	imports: [
 	 SharedModule,
@@ -28,8 +32,6 @@ import { LoginComponent } from 'app/admin/login/login.component';
 	 MatFormFieldModule,
 	 HttpModule
 	],
-	providers: [
-
-  ]
+	providers: [ AuthGuard,AuthService]
 })
 export class AdminModule { }

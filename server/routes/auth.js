@@ -14,25 +14,31 @@ app.use(bodyParser.urlencoded({
   
 app.use(bodyParser.json());
 
+
+
 router.post("/userData",function(req,res) {
-    let username = req.body.userName;
-    let password = req.body.passWord;
     
-    console.log(username +" "+password);
+    if (req.body.userName == 'shoyeb' && req.body.passWord == '123') {
+        req.session.adminLoginStatus = true;
+        var xyz = req.session.adminLoginStatus
+        res.json(xyz);
+    } else {
+        req.session.destroy();
+    }
+    
 
     var userModel = new userAdminModel()
         userModel.username = req.body.userName;
         userModel.password = req.body.passWord;
     
-    userModel.save(function(err,save) {
-        if (err) {
-            console.log(err);
-        } else {
-            console.log(save);
-        }
+    // userModel.save(function(err,save) {
+    //     if (err) {
+    //         console.log(err);
+    //     } else {
+    //         console.log(save);
+    //     }
 
-    })
-     
+    // })
 
 })
 

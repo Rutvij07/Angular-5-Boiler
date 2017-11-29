@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const http = require('http');
+const session = require('express-session');
 const app = express();
 
 const mongoose = require('mongoose');
@@ -9,6 +10,30 @@ const mongoose = require('mongoose');
 const api = require('./server/routes/api');
 const auth = require('./server/routes/auth');
 
+//Set Cookie
+app.use(session(
+    {
+      name: 'myName',
+      secret: '#@$#!ng',
+      resave: true,
+      saveUninitialized: true,
+      overwrite: true,
+      unset: 'destroy',
+      rolling: true,
+      "cookie": {
+        maxAge: 1000 * 60 * 15000000
+      },
+      store: new (require('express-sessions'))({
+          storage: 'mongodb',
+          instance: mongoose, // optional
+          host: 'localhost', // optional
+          port: 27017, // optional
+          db: 'auction', // optional
+          collection: 'mysessions', // optional
+          expire: 1000 * 60 * 15000000
+      })
+    }
+  ));
 
 // Parsers
 app.use(bodyParser.json());
@@ -27,7 +52,7 @@ app.get('*', (req, res) => {
 });
 
 //Set Port
-const port = process.env.PORT || '3001';
+const port = process.env.PORT || '8000';
 app.set('port', port);
 
 const server = http.createServer(app);
