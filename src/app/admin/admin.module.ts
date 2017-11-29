@@ -17,6 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from 'app/admin/login/login.component';
 import { AddbuilderComponent } from '../admin/builder/addbuilder/addbuilder.component';
 import { ManagebuilderComponent } from '../admin/builder/managebuilder/managebuilder.component';
+import { AuthGuard } from 'app/auth/auth.guard';
+import { AuthService } from 'app/auth/auth.service';
 
 
 @NgModule({
@@ -35,8 +37,6 @@ import { ManagebuilderComponent } from '../admin/builder/managebuilder/managebui
 	 HttpModule,
 	 MatExpansionModule
 	],
-	providers: [
-
-  ]
+	providers: [ AuthGuard,AuthService]
 })
 export class AdminModule { }

@@ -26,8 +26,7 @@ import { LandingComponent } from './landing/landing.component';
 	declarations:
 	[
 		AppComponent,
-		LandingComponent,
-		
+		LandingComponent,		
 	],
 	imports:
 	[
