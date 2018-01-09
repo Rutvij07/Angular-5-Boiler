@@ -4,10 +4,6 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 
 
-
-
-
-
 //modules
 import { SharedModule } from './sharedmodule/shared.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -20,13 +16,15 @@ import { AppRoutingModule } from './app-routing.module';
 //components
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
+import { SharingComponent } from './sharing/sharing.component';
 
 
 @NgModule({
 	declarations:
 	[
 		AppComponent,
-		LandingComponent,		
+		LandingComponent,
+		SharingComponent,		
 	],
 	imports:
 	[

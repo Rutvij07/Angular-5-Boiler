@@ -180,6 +180,7 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__landing_landing_component__ = __webpack_require__("../../../../../src/app/landing/landing.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__sharing_sharing_component__ = __webpack_require__("../../../../../src/app/sharing/sharing.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -199,6 +200,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 //components
 
 
+
 var AppModule = (function () {
     function AppModule() {
     }
@@ -207,6 +209,7 @@ var AppModule = (function () {
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* AppComponent */],
                 __WEBPACK_IMPORTED_MODULE_9__landing_landing_component__["a" /* LandingComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__sharing_sharing_component__["a" /* SharingComponent */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__["a" /* BrowserModule */],
@@ -230,7 +233,7 @@ var AppModule = (function () {
 /***/ "../../../../../src/app/landing/landing.component.html":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title></title>\n</head>\n<body>\n    <h1>WELCOME TO HELL...</h1>\n    <app-sharing [cities] = \"cityList\"></app-sharing>\n</body>\n</html>"
 
 /***/ }),
 
@@ -270,8 +273,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var LandingComponent = (function () {
     function LandingComponent() {
+        this.cityList = [
+            {
+                "id": 1,
+                "name": "India"
+            },
+            {
+                "id": 2,
+                "name": "England"
+            }
+        ];
     }
     LandingComponent.prototype.ngOnInit = function () {
+        console.log(this.cityList);
     };
     LandingComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
@@ -339,6 +353,68 @@ var SharedModule = (function () {
         })
     ], SharedModule);
     return SharedModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/sharing/sharing.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<h2>City List Are:</h2>\n<table class=\"table table-hover\">\n  <thead>\n    <tr>\n      <td>Id</td>\n      <td>City Name</td>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor = \"let c of cities\">\n      <td>{{c.id}}</td>\n      <td>{{c.name}}</td>\n    </tr>\n  </tbody>\n</table>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/sharing/sharing.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/sharing/sharing.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SharingComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SharingComponent = (function () {
+    function SharingComponent() {
+    }
+    SharingComponent.prototype.ngOnInit = function () {
+    };
+    SharingComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-sharing',
+            template: __webpack_require__("../../../../../src/app/sharing/sharing.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/sharing/sharing.component.scss")],
+            inputs: ['cities']
+        }),
+        __metadata("design:paramtypes", [])
+    ], SharingComponent);
+    return SharingComponent;
 }());
 
 

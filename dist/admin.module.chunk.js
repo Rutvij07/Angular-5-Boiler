@@ -131,11 +131,10 @@ var AdminModule = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdminRoutingModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__admin_component__ = __webpack_require__("../../../../../src/app/admin/admin.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__admin_dashboard_dashboard_component__ = __webpack_require__("../../../../../src/app/admin/dashboard/dashboard.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_app_admin_login_login_component__ = __webpack_require__("../../../../../src/app/admin/login/login.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_app_admin_builder_addbuilder_addbuilder_component__ = __webpack_require__("../../../../../src/app/admin/builder/addbuilder/addbuilder.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_app_admin_builder_managebuilder_managebuilder_component__ = __webpack_require__("../../../../../src/app/admin/builder/managebuilder/managebuilder.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__admin_dashboard_dashboard_component__ = __webpack_require__("../../../../../src/app/admin/dashboard/dashboard.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_app_admin_login_login_component__ = __webpack_require__("../../../../../src/app/admin/login/login.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_app_admin_builder_addbuilder_addbuilder_component__ = __webpack_require__("../../../../../src/app/admin/builder/addbuilder/addbuilder.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_app_admin_builder_managebuilder_managebuilder_component__ = __webpack_require__("../../../../../src/app/admin/builder/managebuilder/managebuilder.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -145,18 +144,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 //modules
 
-//components
-
 
 
 
 
 var adminRoutes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_2__admin_component__["a" /* AdminComponent */], children: [
-            { path: '', component: __WEBPACK_IMPORTED_MODULE_4_app_admin_login_login_component__["a" /* LoginComponent */] },
-            { path: 'dashboard', component: __WEBPACK_IMPORTED_MODULE_3__admin_dashboard_dashboard_component__["a" /* DashboardComponent */] },
-            { path: 'addbuilder', component: __WEBPACK_IMPORTED_MODULE_5_app_admin_builder_addbuilder_addbuilder_component__["a" /* AddbuilderComponent */] },
-            { path: 'managebuilder', component: __WEBPACK_IMPORTED_MODULE_6_app_admin_builder_managebuilder_managebuilder_component__["a" /* ManagebuilderComponent */] },
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_3_app_admin_login_login_component__["a" /* LoginComponent */], children: [
+            { path: '', component: __WEBPACK_IMPORTED_MODULE_3_app_admin_login_login_component__["a" /* LoginComponent */] },
+            { path: 'dashboard', component: __WEBPACK_IMPORTED_MODULE_2__admin_dashboard_dashboard_component__["a" /* DashboardComponent */] },
+            { path: 'addbuilder', component: __WEBPACK_IMPORTED_MODULE_4_app_admin_builder_addbuilder_addbuilder_component__["a" /* AddbuilderComponent */] },
+            { path: 'managebuilder', component: __WEBPACK_IMPORTED_MODULE_5_app_admin_builder_managebuilder_managebuilder_component__["a" /* ManagebuilderComponent */] },
         ] },
 ];
 var AdminRoutingModule = (function () {
